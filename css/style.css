@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/*HOME PAGE*/
+header{
+    padding: 10px;
+    background-color: olivedrab;
+}
+
+body{
+    padding: 10px;
+    /*background-color: rgb(144, 197, 38);*/
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    flex: 1;
+}
+
+ h1{
+    display: inline;
+    align-items: center;
+    font-size: 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    nav{
+        display: block;
+        position: relative;
+        padding: 20px 20px;
+    }
+}
+
+/*Main Home Section*/
+.container h2{
+    text-align: center;
+
+}
+.featured-artist{
+    display: flex;
+    padding: 15px;
+}
+
+.featured-artist p{
+    display: flex;
+    align-items: center;
+}
+
+.featured-artist h3{
+    
+}
+.featured-artwork{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+.container img{
+    width: 300px;
+    height: 350px;
+}
+/*.head{
+    display:flex;
+}
+.navbar{
+    display: inline;
+}*/
+
+footer{
+    text-align: center;
+    height: 20px;
+    background-color: olivedrab;
+}
+/*ABOUT*/
+/*PRODUCTS*/
+/*ADMIN*/
+/*CONTACT*/
