@@ -9,7 +9,7 @@
 /*HOME PAGE*/
 header{
     padding: 10px;
-    background-color: olivedrab;
+    /*background-color: olivedrab;*/
 }
 
 body{
@@ -113,6 +113,19 @@ footer{
     background-color: olivedrab;
 }
 /*ABOUT*/
+/*.about-us h1{
+    padding: 10px;
+    text-align: center;
+}*/
+.about-body{
+    background-image: url(https://i.postimg.cc/N0tNV7Q6/images-3.jpg); 
+    background-repeat: no-repeat;
+    color: white;
+}
+.about-us-main{
+    text-align: center;
+
+}
 /*PRODUCTS*/
 /*ADMIN*/
 /*CONTACT*/
