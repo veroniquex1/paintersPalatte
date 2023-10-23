@@ -9,6 +9,7 @@
 /*HOME PAGE*/
 header{
     padding: 10px;
+    background-image: url(//i.postimg.cc/N0tNV7Q6/images-3.jpg);
     /*background-color: olivedrab;*/
 }
 
@@ -19,11 +20,26 @@ body{
 
 a, a:hover{
     text-decoration: none;
+    color: white;
+}
+a, a:link{
+    color: white;
+    font-size: 25px;
 }
 
+.logo h1{
+    color: white;
+}
 .logo img{
     width: 100px;
     height: 100px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 nav{
@@ -110,22 +126,72 @@ nav a:hover{
 footer{
     text-align: center;
     height: 20px;
-    background-color: olivedrab;
 }
+
+main{
+    display: grid;
+    grid-template-rows: auto 100vw auto;
+}
+
 /*ABOUT*/
 /*.about-us h1{
     padding: 10px;
     text-align: center;
 }*/
-.about-body{
-    background-image: url(https://i.postimg.cc/N0tNV7Q6/images-3.jpg); 
-    background-repeat: no-repeat;
-    color: white;
+.about-body h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+
 }
 .about-us-main{
     text-align: center;
+    padding: 50px;
+
+}
+.about-us-main p{
+    font-size: 25px;
+    padding: 10px;
+    word-spacing: 5px;
 
 }
 /*PRODUCTS*/
+.paint {
+        display: flex;
+        justify-content: space-between;
+}
+
+.paint-brushes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.button-wrapper {
+    justify-content: space-between;
+}
+.button-wrapper button {
+    border: 1px solid;
+    padding: 2px;
+}
+
+.product-container img{
+        height: 200px;
+        width: 180px;
+}
 /*ADMIN*/
 /*CONTACT*/
+.contact-us-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    font-size: 20px;
+}
+.contact-us-title{
+    text-align: center;
+    font-size: 50px;
+}
